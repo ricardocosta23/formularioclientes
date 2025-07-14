@@ -1,0 +1,616 @@
+🔄 Initializing conditional questions: 29
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 1: depends on "guide_malha_aerea", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "guide_malha_aerea"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 2: depends on "guide_malha_aerea", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "guide_malha_aerea"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 3: depends on "guide_malha_aerea", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "guide_malha_aerea"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 4: depends on "question_1752158102105", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158102105"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 5: depends on "question_1752158102105", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158102105"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 6: depends on "guide_malha_aerea", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "guide_malha_aerea"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 7: depends on "guide_malha_aerea", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "guide_malha_aerea"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 8: depends on "question_1752158183825", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158183825"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 9: depends on "guide_malha_aerea", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "guide_malha_aerea"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 10: depends on "question_1752158205456", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158205456"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 11: depends on "question_1752158878674", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158878674"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 12: depends on "question_1752158878674", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158878674"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 13: depends on "question_1752158878674", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158878674"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 14: depends on "question_1752158878674", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158878674"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 15: depends on "question_1752158940898", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158940898"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 16: depends on "question_1752158940898", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158940898"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 17: depends on "question_1752158940898", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752158940898"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 18: depends on "question_1752159011799", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752159011799"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 19: depends on "question_1752159011799", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752159011799"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 20: depends on "question_1752159011799", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752159011799"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 21: depends on "question_1752159068118", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752159068118"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 22: depends on "question_1752159068118", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752159068118"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 23: depends on "question_1752174708360", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752174708360"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 24: depends on "question_1752174708360", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752174708360"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 25: depends on "question_1752177398886", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752177398886"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 26: depends on "question_1752177418807", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752177418807"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 27: depends on "question_1752177476605", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752177476605"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 28: depends on "question_1752177527819", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752177527819"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2184 Setting up conditional question 29: depends on "question_1752177675991", show if "Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2200 Found 2 dependent inputs for "question_1752177675991"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2222 🔄 Forcing initial state check for conditional questions...
+3b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: guide_malha_aerea
+2b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752158102105
+2b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: guide_malha_aerea
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752158183825
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: guide_malha_aerea
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752158205456
+4b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752158878674
+3b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752158940898
+3b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752159011799
+2b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752159068118
+2b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752174708360
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752177398886
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752177418807
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752177476605
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752177527819
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2227 Checking initial state for conditional question depending on: question_1752177675991
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2517 🎯 PAGE LOADED - FORM INITIALIZATION
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2518 ====================================
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2519 Found error divs: 49
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2323 🔍 FORM DEBUG MODE ENABLED
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2351 📊 FORM STRUCTURE ANALYSIS
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2352 ==========================
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2356 Found 49 question sections
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 1 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 2 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 3 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 4 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 5 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"guide_malha_aerea" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 6 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"guide_malha_aerea" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 7 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"guide_malha_aerea" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 8 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158102105" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 9 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158102105" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 10 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"guide_malha_aerea" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 11 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"guide_malha_aerea" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 12 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158183825" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 13 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"guide_malha_aerea" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 14 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158205456" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 15 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 16 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158878674" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 17 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158878674" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 18 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158878674" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 19 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158878674" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 20 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158940898" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 21 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158940898" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 22 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752158940898" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 23 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 24 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752159011799" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 25 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752159011799" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 26 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752159011799" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 27 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 28 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752159068118" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 29 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752159068118" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 30 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 31 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 32 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 33 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752174708360" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 34 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752174708360" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 35 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 36 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 37 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 38 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 39 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752177398886" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 40 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752177418807" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 41 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 42 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752177476605" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 43 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 44 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752177527819" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 45 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 46 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section" data-depends-on=​"question_1752177675991" data-show-if=​"Sim" style=​"display:​ none;​">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: none
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 47 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 2
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 48 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2359 
+--- Section 49 ---
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2360 Section element: <div class=​"question-section">​…​</div>​
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2361 Display style: block
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2362 Is visible: true
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2366 Inputs found: 1
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2369   Input 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2382 Error div found: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2395 
+📋 ALL ERROR DIVS (49)
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 1: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 2: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 3: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 4: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 5: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 6: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 7: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 8: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 9: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 10: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 11: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 12: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 13: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 14: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 15: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 16: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 17: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 18: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 19: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 20: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 21: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 22: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 23: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 24: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 25: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 26: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 27: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 28: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 29: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 30: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 31: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 32: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 33: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 34: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 35: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 36: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 37: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 38: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 39: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 40: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 41: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 42: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 43: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 44: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 45: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 46: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 47: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 48: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2397 Error div 49: Object
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "no"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="no", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "no"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="no", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "no"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="no", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "no"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="no", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "no"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="no", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "no"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="no", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2205 Parent question "guide_malha_aerea" changed to: "yes"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2253 🔄 Toggle conditional: currentValue="yes", targetValue="Sim"
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2265 Should show: false
+b5de73d0-ca95-42f2-bca0-c78c49835c2a:2286 ❌ Hiding conditional question
+DevTools failed to load source map: Could not load content for https://unpkg.com/feather.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE

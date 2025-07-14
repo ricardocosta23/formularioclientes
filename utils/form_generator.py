@@ -207,6 +207,14 @@ class FormGenerator:
                 if not question_id:
                     continue
 
+                # Handle hidden Monday column fields
+                if question_type == 'monday_column' and question.get('hidden'):
+                    # For hidden fields, use the column_value from the question
+                    if destination_column and question.get('column_value'):
+                        column_values[destination_column] = question.get('column_value')
+                        logging.info(f"Added hidden Monday column field: {destination_column} = {question.get('column_value')}")
+                    continue
+
                 # Handle Monday column questions (Coluna do Monday)
                 if question_type == 'monday_column':
                     # Handle text destination column (for the fetched text value)

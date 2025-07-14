@@ -685,7 +685,7 @@
   "clientes": {
     "board_a": "9241811459",
     "board_b": "9242892489",
-    "link_column": "",
+    "link_column": "text_mksvzfm1",
     "header_fields": [
       {
         "title": "Nome do Cliente",

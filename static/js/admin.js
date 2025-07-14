@@ -72,50 +72,94 @@ function initializeEventListeners() {
 }
 
 // Set initial tab
-window.currentTab = 'guias';
+window.currentTab = 'clientes';
 
 // Configuration management functions
 function loadConfiguration() {
+    console.log('Loading configuration from /api/config...');
     fetch('/api/config')
-        .then(response => response.json())
+        .then(response => {
+            console.log('Config response status:', response.status);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(config => {
             console.log('Loaded config:', config);
             populateConfigurationForm(config);
         })
         .catch(error => {
             console.error('Error loading configuration:', error);
+            // Try to load config.json directly as fallback
+            console.log('Trying fallback config loading...');
+            loadFallbackConfig();
+        });
+}
+
+function loadFallbackConfig() {
+    fetch('/static/config.json')
+        .then(response => response.json())
+        .then(config => {
+            console.log('Loaded fallback config:', config);
+            populateConfigurationForm(config);
+        })
+        .catch(error => {
+            console.error('Error loading fallback configuration:', error);
         });
 }
 
 function populateConfigurationForm(config) {
+    console.log('Populating configuration form with:', config);
+    
     // Populate form fields for each tab
     ['guias', 'clientes', 'fornecedores'].forEach(formType => {
+        console.log(`Processing form type: ${formType}`);
         const formConfig = config[formType] || {};
+        console.log(`Config for ${formType}:`, formConfig);
 
         // Populate basic fields
         const boardAField = document.getElementById(`${formType}-board-a`);
         const boardBField = document.getElementById(`${formType}-board-b`);
         const linkColumnField = document.getElementById(`${formType}-link-column`);
 
-        if (boardAField) boardAField.value = formConfig.board_a || '';
-        if (boardBField) boardBField.value = formConfig.board_b || '';
-        if (linkColumnField) linkColumnField.value = formConfig.link_column || '';
+        if (boardAField) {
+            boardAField.value = formConfig.board_a || '';
+            console.log(`Set ${formType} board_a to:`, formConfig.board_a);
+        }
+        if (boardBField) {
+            boardBField.value = formConfig.board_b || '';
+            console.log(`Set ${formType} board_b to:`, formConfig.board_b);
+        }
+        if (linkColumnField) {
+            linkColumnField.value = formConfig.link_column || '';
+            console.log(`Set ${formType} link_column to:`, formConfig.link_column);
+        }
 
         // Populate header fields
         if (formConfig.header_fields) {
+            console.log(`Processing ${formConfig.header_fields.length} header fields for ${formType}`);
             formConfig.header_fields.forEach((field, index) => {
                 const titleField = document.getElementById(`${formType}-header-${index + 1}-title`);
                 const columnField = document.getElementById(`${formType}-header-${index + 1}-column`);
 
-                if (titleField) titleField.value = field.title || '';
-                if (columnField) columnField.value = field.monday_column || '';
+                if (titleField) {
+                    titleField.value = field.title || '';
+                    console.log(`Set header ${index + 1} title to:`, field.title);
+                }
+                if (columnField) {
+                    columnField.value = field.monday_column || '';
+                    console.log(`Set header ${index + 1} column to:`, field.monday_column);
+                }
             });
         }
 
         // Populate questions
-        if (formConfig.questions) {
-            console.log('Rendering questions for:', formType, formConfig.questions);
+        if (formConfig.questions && formConfig.questions.length > 0) {
+            console.log(`Rendering ${formConfig.questions.length} questions for ${formType}`);
             renderQuestions(formType, formConfig.questions);
+        } else {
+            console.log(`No questions found for ${formType}`);
         }
     });
 }
@@ -130,10 +174,22 @@ function renderQuestions(formType, questions) {
     // Clear existing questions
     questionsContainer.innerHTML = '';
 
+    if (!questions || questions.length === 0) {
+        console.log('No questions to render for:', formType);
+        return;
+    }
+
+    console.log(`Rendering ${questions.length} questions for ${formType}:`, questions);
+
     questions.forEach((question, index) => {
         const questionElement = createQuestionElement(formType, question, index);
         questionsContainer.appendChild(questionElement);
     });
+
+    // Re-initialize any icons
+    if (typeof feather !== 'undefined') {
+        feather.replace();
+    }
 }
 
 function createQuestionElement(formType, question, index) {
@@ -578,8 +634,12 @@ function switchTab(tabName) {
 
 // Initialize when page loads
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeAdminInterface);
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOM loaded, initializing admin interface...');
+        initializeAdminInterface();
+    });
 } else {
+    console.log('DOM already ready, initializing admin interface...');
     initializeAdminInterface();
 }
 

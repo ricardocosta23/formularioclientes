@@ -198,7 +198,8 @@
         "source_column": "lookup_mkrkwqep",
         "destination_column": "text_mkrkqj1g",
         "is_conditional": false,
-        "source": "manual"
+        "source": "manual",
+        "hidden": true
       }
     ]
   },

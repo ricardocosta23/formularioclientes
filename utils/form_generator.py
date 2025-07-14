@@ -210,9 +210,16 @@ class FormGenerator:
                 # Handle hidden Monday column fields
                 if question_type == 'monday_column' and question.get('hidden'):
                     # For hidden fields, use the column_value from the question
-                    if destination_column and question.get('column_value'):
-                        column_values[destination_column] = question.get('column_value')
-                        logging.info(f"Added hidden Monday column field: {destination_column} = {question.get('column_value')}")
+                    column_value = question.get('column_value', '')
+                    if destination_column and column_value and column_value.strip():
+                        # Make sure we're not saving error messages
+                        if column_value not in ['Dados não encontrados', 'Erro ao carregar dados', 'Dados não disponíveis', 'Configuração incompleta']:
+                            column_values[destination_column] = str(column_value).strip()
+                            logging.info(f"Added hidden Monday column field: {destination_column} = {column_value}")
+                        else:
+                            logging.warning(f"Skipping hidden field with error value: {column_value}")
+                    else:
+                        logging.warning(f"Hidden Monday column field missing data: dest={destination_column}, value='{column_value}'")
                     continue
 
                 # Handle Monday column questions (Coluna do Monday)

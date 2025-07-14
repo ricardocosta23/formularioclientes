@@ -23,8 +23,15 @@ def handle_formguias():
         logging.info(f"Received webhook data for Guias: {webhook_data}")
 
         # Load configuration dynamically
-        with open('setup/config.json', 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        try:
+            with open('setup/config.json', 'r', encoding='utf-8') as f:
+                config = json.load(f)
+        except json.JSONDecodeError as e:
+            logging.error(f"JSON parsing error in config.json: {str(e)}")
+            return jsonify({"error": "Configuration file has invalid JSON syntax"}), 500
+        except FileNotFoundError:
+            logging.error("config.json file not found")
+            return jsonify({"error": "Configuration file not found"}), 500
 
         guias_config = config.get('guias', {})
 
@@ -52,7 +59,8 @@ def handle_formguias():
                         column_mapping = {
                             'lookup_mkrjh91x': 'Destino',
                             'lookup_mkrjpdz0': 'Data', 
-                            'lookup_mkrb9ns5': 'Cliente'
+                            'lookup_mkrb9ns5': 'Cliente',
+                            'lookup_mkrkwqep': 'Additional_Data'
                         }
 
 
@@ -170,7 +178,7 @@ def handle_formguias():
         form_generator = FormGenerator()
         form_data = {
             "type": "guias",
-            "title": "Formulário de Avaliação para Clientes",
+            "title": "Formulário de Avaliação para Guias",
             "subtitle": "Avalie nossa viagem",
             "questions": processed_questions,
             "header_data": header_data,

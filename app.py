@@ -276,26 +276,36 @@ def process_form_background(form_id, submission_data, stored_form_data):
 
                     # For Monday column questions, save both the response and the column value
                     if question_type == 'monday_column':
-                        # Save the user's response (rating)
-                        response_value = submission_data.get(question_id)
-                        if response_value is not None and str(response_value).strip():
-                            response_str = str(response_value).strip()
-
-                            # Convert English to Portuguese
-                            if response_str.lower() == "yes":
-                                response_str = "Sim"
-                            elif response_str.lower() == "no":
-                                response_str = "Não"
-
-                            # Save to rating destination column
-                            if rating_destination_column and rating_destination_column.strip():
-                                column_values[rating_destination_column.strip()] = response_str
-
-                        # Save the column value (question text) to text destination column
-                        if text_destination_column and text_destination_column.strip():
+                        # Check if this is a hidden field
+                        if question.get('hidden'):
+                            # For hidden fields, only save the column_value to destination_column
                             column_value = question.get('column_value', '')
-                            if column_value and column_value not in ['', 'Dados não encontrados', 'Erro ao carregar dados', 'Dados não disponíveis', 'Configuração incompleta']:
-                                column_values[text_destination_column.strip()] = column_value
+                            if destination_column and destination_column.strip() and column_value:
+                                if column_value not in ['', 'Dados não encontrados', 'Erro ao carregar dados', 'Dados não disponíveis', 'Configuração incompleta']:
+                                    column_values[destination_column.strip()] = str(column_value).strip()
+                                    app.logger.info(f"Processing - Added hidden Monday column: {destination_column} = {column_value}")
+                        else:
+                            # For visible Monday column questions, save both the response and the column value
+                            # Save the user's response (rating)
+                            response_value = submission_data.get(question_id)
+                            if response_value is not None and str(response_value).strip():
+                                response_str = str(response_value).strip()
+
+                                # Convert English to Portuguese
+                                if response_str.lower() == "yes":
+                                    response_str = "Sim"
+                                elif response_str.lower() == "no":
+                                    response_str = "Não"
+
+                                # Save to rating destination column
+                                if rating_destination_column and rating_destination_column.strip():
+                                    column_values[rating_destination_column.strip()] = response_str
+
+                            # Save the column value (question text) to text destination column
+                            if text_destination_column and text_destination_column.strip():
+                                column_value = question.get('column_value', '')
+                                if column_value and column_value not in ['', 'Dados não encontrados', 'Erro ao carregar dados', 'Dados não disponíveis', 'Configuração incompleta']:
+                                    column_values[text_destination_column.strip()] = column_value
 
                     else:
                         # For regular questions (yesno, rating, text, longtext, dropdown)

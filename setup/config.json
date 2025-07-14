@@ -188,8 +188,19 @@
         "destination_column": "long_text_mkrjd4z0",
         "is_conditional": false,
         "source": "manual"
+      },
+       
+    {
+        "id": "mirror_data_field",
+        "type": "monday_column",
+        "required": false,
+        "text": "",
+        "source_column": "lookup_mkrkwqep",
+        "destination_column": "text_mkrkqj1g",
+        "is_conditional": false,
+        "source": "manual"
       }
-   ]
+    ]
   },
 
   "clientes": {

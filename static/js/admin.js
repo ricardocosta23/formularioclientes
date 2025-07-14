@@ -72,7 +72,7 @@ function initializeEventListeners() {
 }
 
 // Set initial tab
-window.currentTab = 'guias';
+window.currentTab = 'clientes';
 
 // Configuration management functions
 function loadConfiguration() {

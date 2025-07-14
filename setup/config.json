@@ -57,7 +57,7 @@
       {
         "id": "question_1752160095686",
         "type": "monday_column",
-        "required": false,
+        "required": true,
         "text": "",
         "source_column": "text_mkrj9z52",
         "text_destination_column": "text_mkrjf13y",
@@ -68,7 +68,7 @@
       {
         "id": "question_1752174171731",
         "type": "monday_column",
-        "required": false,
+        "required": true,
         "text": "",
         "source_column": "text_mkrjz0tf",
         "text_destination_column": "text_mkrjk4yg",
@@ -133,7 +133,7 @@
       {
         "id": "question_1752174977015",
         "type": "monday_column",
-        "required": true,
+        "required": false,
         "text": "",
         "source_column": "dropdown_mksdhq4q",
         "text_destination_column": "text_mksdr0qv",
@@ -144,7 +144,7 @@
       {
         "id": "question_1752174998832",
         "type": "monday_column",
-        "required": true,
+        "required": false,
         "text": "",
         "source_column": "dropdown_mksdspz0",
         "text_destination_column": "text_mksdppd8",
@@ -164,7 +164,7 @@
       {
         "id": "question_1752177353487",
         "type": "rating",
-        "required": false,
+        "required": true,
         "text": "Como você avalia a viagem de forma geral? Você indicaria a Top Service para realização de uma futura viagem? *",
         "destination_column": "numeric_mkrjv5re",
         "is_conditional": false,

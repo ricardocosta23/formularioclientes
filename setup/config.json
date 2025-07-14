@@ -175,7 +175,7 @@
         "type": "longtext",
         "required": false,
         "text": "Deixe aqui seus comentários, elogios, reclamações ou sugestões:",
-        "destination_column": "long_text_mksdfcf4",
+        "destination_column": "long_text_mkrjwfwx",
         "is_conditional": false,
         "source": "manual"
       },
@@ -185,7 +185,7 @@
         "type": "longtext",
         "required": false,
         "text": "Qual destino você gostaria de sugerir para uma próxima viagem?",
-        "destination_column": "long_text_mksdfcf4",
+        "destination_column": "long_text_mkrjd4z0",
         "is_conditional": false,
         "source": "manual"
       }

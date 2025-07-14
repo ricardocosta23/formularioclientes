@@ -113,8 +113,16 @@ def config_api():
     """API endpoint for managing configurations"""
     if request.method == 'GET':
         try:
-            config = load_config()
-            return jsonify(config)
+            # Load configuration directly from config.json file
+            config_path = os.path.join('setup', 'config.json')
+            if os.path.exists(config_path):
+                with open(config_path, 'r', encoding='utf-8') as f:
+                    config = json.load(f)
+                app.logger.info("Configuration loaded successfully from config.json")
+                return jsonify(config)
+            else:
+                app.logger.error("config.json not found")
+                return jsonify({"error": "Configuration file not found"}), 404
         except Exception as e:
             app.logger.error(f"Error loading config: {str(e)}")
             return jsonify({"error": "Failed to load configuration"}), 500
@@ -407,37 +415,7 @@ app.get_form_data = get_form_data
 app.load_config = load_config
 app.FORMS_STORAGE = FORMS_STORAGE
 
-@app.route('/api/config', methods=['GET'])
-def get_config():
-    """Get configuration from config.json"""
-    try:
-        config_path = os.path.join('setup', 'config.json')
-        if os.path.exists(config_path):
-            with open(config_path, 'r', encoding='utf-8') as f:
-                config = json.load(f)
-            return jsonify(config)
-        else:
-            app.logger.error("config.json not found")
-            return jsonify({"error": "Configuration file not found"}), 404
-    except Exception as e:
-        app.logger.error(f"Error loading configuration: {str(e)}")
-        return jsonify({"error": str(e)}), 500
 
-@app.route('/api/config', methods=['POST'])
-def save_config():
-    """Save configuration to config.json"""
-    try:
-        config_data = request.get_json()
-        config_path = os.path.join('setup', 'config.json')
-
-        with open(config_path, 'w', encoding='utf-8') as f:
-            json.dump(config_data, f, indent=2, ensure_ascii=False)
-
-        app.logger.info("Configuration saved successfully")
-        return jsonify({"success": True, "message": "Configuration saved"})
-    except Exception as e:
-        app.logger.error(f"Error saving configuration: {str(e)}")
-        return jsonify({"error": str(e)}), 500
 
 @app.route('/api/forms', methods=['GET'])
 def list_forms():

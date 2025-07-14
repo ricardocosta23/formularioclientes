@@ -170,7 +170,7 @@ def handle_formguias():
         form_generator = FormGenerator()
         form_data = {
             "type": "guias",
-            "title": "Formulário de Avaliação para Guias",
+            "title": "Formulário de Avaliação",
             "subtitle": "Avalie nossa viagem",
             "questions": processed_questions,
             "header_data": header_data,

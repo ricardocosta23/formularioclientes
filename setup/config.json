@@ -81,15 +81,7 @@
         "type": "divider",
         "title": "🍴Alimentação"
       },
-      {
-        "id": "question_1752174708360",
-        "type": "yesno",
-        "required": true,
-        "text": "Tivemos alimentação inclusa?",
-        "destination_column": "text_mksqsmjv",
-        "is_conditional": false,
-        "source": "manual"
-      },
+   
  {
         "id": "question_1752174171731",
         "type": "monday_column",
@@ -98,11 +90,7 @@
         "source_column": "text_mksd9jca",
         "text_destination_column": "text_mksvnywe",
         "rating_destination_column": "numeric_mksv5c1r",
-        "conditional": {
-          "depends_on": "question_1752174708360",
-          "show_if": "Sim"
-        },
-        "is_conditional": true,
+       "is_conditional": false,
         "source": "manual"
       },
  {
@@ -113,13 +101,10 @@
         "source_column": "text_mksdbtbn",
         "text_destination_column": "text_mksvbzw7",
         "rating_destination_column": "numeric_mksvwpmx",
-        "conditional": {
-          "depends_on": "question_1752174708360",
-          "show_if": "Sim"
-        },
-        "is_conditional": true,
+       "is_conditional": false,
         "source": "manual"
       },
+       
  {
         "id": "question_1752174171731",
         "type": "monday_column",
@@ -128,11 +113,7 @@
         "source_column": "text_mksd3h49",
         "text_destination_column": "text_mksv90t7",
         "rating_destination_column": "numeric_mksvw70j",
-        "conditional": {
-          "depends_on": "question_1752174708360",
-          "show_if": "Sim"
-        },
-        "is_conditional": true,
+        "is_conditional": false,
         "source": "manual"
       },
  {
@@ -143,11 +124,7 @@
         "source_column": "text_mksdwhtn",
         "text_destination_column": "text_mksv7z2r",
         "rating_destination_column": "numeric_mksvncrj",
-        "conditional": {
-          "depends_on": "question_1752174708360",
-          "show_if": "Sim"
-        },
-        "is_conditional": true,
+       "is_conditional": false,
         "source": "manual"
       },
         {
@@ -158,11 +135,7 @@
         "source_column": "text_mksdyjy2",
         "text_destination_column": "text_mksv5a0x",
         "rating_destination_column": "numeric_mksvcc72",
-        "conditional": {
-          "depends_on": "question_1752174708360",
-          "show_if": "Sim"
-        },
-        "is_conditional": true,
+      "is_conditional": false,
         "source": "manual"
       },
       

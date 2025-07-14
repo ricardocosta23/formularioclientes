@@ -90,12 +90,14 @@
         "is_conditional": false,
         "source": "manual"
       },
-      {
-        "id": "question_1752174756966",
-        "type": "rating",
-        "required": true,
-        "text": "Nota restaurantes",
-        "destination_column": "numeric_mksqce6j",
+ {
+        "id": "question_1752174171731",
+        "type": "monday_column",
+        "required": false,
+        "text": "",
+        "source_column": "text_mksd9jca",
+        "text_destination_column": "text_mksvnywe",
+        "rating_destination_column": "numeric_mksv5c1r",
         "conditional": {
           "depends_on": "question_1752174708360",
           "show_if": "Sim"
@@ -103,6 +105,67 @@
         "is_conditional": true,
         "source": "manual"
       },
+ {
+        "id": "question_1752174171731",
+        "type": "monday_column",
+        "required": false,
+        "text": "",
+        "source_column": "text_mksdbtbn",
+        "text_destination_column": "text_mksvbzw7",
+        "rating_destination_column": "numeric_mksvwpmx",
+        "conditional": {
+          "depends_on": "question_1752174708360",
+          "show_if": "Sim"
+        },
+        "is_conditional": true,
+        "source": "manual"
+      },
+ {
+        "id": "question_1752174171731",
+        "type": "monday_column",
+        "required": false,
+        "text": "",
+        "source_column": "text_mksd3h49",
+        "text_destination_column": "text_mksv90t7",
+        "rating_destination_column": "numeric_mksvw70j",
+        "conditional": {
+          "depends_on": "question_1752174708360",
+          "show_if": "Sim"
+        },
+        "is_conditional": true,
+        "source": "manual"
+      },
+ {
+        "id": "question_1752174171731",
+        "type": "monday_column",
+        "required": false,
+        "text": "",
+        "source_column": "text_mksdwhtn",
+        "text_destination_column": "text_mksv7z2r",
+        "rating_destination_column": "numeric_mksvncrj",
+        "conditional": {
+          "depends_on": "question_1752174708360",
+          "show_if": "Sim"
+        },
+        "is_conditional": true,
+        "source": "manual"
+      },
+        {
+        "id": "question_1752174171731",
+        "type": "monday_column",
+        "required": false,
+        "text": "",
+        "source_column": "text_mksdyjy2",
+        "text_destination_column": "text_mksv5a0x",
+        "rating_destination_column": "numeric_mksvcc72",
+        "conditional": {
+          "depends_on": "question_1752174708360",
+          "show_if": "Sim"
+        },
+        "is_conditional": true,
+        "source": "manual"
+      },
+      
       {
         "id": "divider_1752174909727",
         "type": "divider",

@@ -1,7 +1,7 @@
 {
   "guias": {
     "board_a": "9241811459",
-    "board_b": "9242892489",
+    "board_b": "9587698202",
     "link_column": "text_mksvzfm1",
     "header_fields": [
       {
@@ -32,7 +32,7 @@
         "type": "yesno",
         "required": true,
         "text": "Teve malha aérea?",
-        "destination_column": "",
+        "destination_column": "text_mksv78v8",
         "is_conditional": false,
         "source": "manual"
       },
@@ -41,7 +41,7 @@
         "type": "rating",
         "required": true,
         "text": "Avalie a malha aérea",
-        "destination_column": "",
+        "destination_column": "numeric_mkrjqam",
         "conditional": {
           "depends_on": "malhaaerea",
           "show_if": "Sim"

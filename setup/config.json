@@ -157,7 +157,7 @@
         "type": "longtext",
         "required": false,
         "text": "Comentários sobre passeios (se houver)",
-        "destination_column": "long_text_mksq9zqr",
+        "destination_column": "long_text_mksvbj9b",
         "is_conditional": false,
         "source": "manual"
       },

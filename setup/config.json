@@ -210,20 +210,20 @@
     "link_column": "text_mksvzfm1",
     "header_fields": [
       {
-        "title": "Nome do Cliente",
-        "monday_column": ""
+        "title": "Nome da Viagem",
+        "monday_column": "item_name"
       },
       {
-        "title": "Serviço Contratado",
-        "monday_column": ""
+        "title": "Destino",
+        "monday_column": "lookup_mkrjh91x"
       },
       {
-        "title": "Data do Serviço",
-        "monday_column": ""
+        "title": "Data da Viagem",
+        "monday_column": "lookup_mkrjpdz0"
       },
       {
-        "title": "Valor do Contrato",
-        "monday_column": ""
+        "title": "Cliente",
+        "monday_column": "lookup_mkrb9ns5"
       }
     ],
     "questions": [

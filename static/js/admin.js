@@ -43,9 +43,6 @@ function initializeTabSwitching() {
             window.currentTab = targetTab;
         });
     });
-
-    // Set initial tab to 'clientes'
-    switchTab('clientes');
 }
 
 function initializeEventListeners() {
@@ -837,7 +834,131 @@ function updateQuestionConditional(formType, index, field, value) {
     }
 }
 
-// Save configuration
+// Question management functions
+function addQuestion(formType) {
+    if (!formType) {
+        console.error('Form type is required');
+        return;
+    }
+
+    const questionsContainer = document.getElementById(`${formType}-questions`);
+    if (!questionsContainer) {
+        console.error('Questions container not found for:', formType);
+        return;
+    }
+
+    // Get current questions from the rendered form
+    const currentQuestions = getCurrentQuestions(formType);
+
+    // Create new question with unique ID
+    const newQuestion = {
+        id: `question_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        type: 'text',
+        text: '',
+        required: false,
+        destination_column: '',
+        source: 'manual',
+        is_conditional: false
+    };
+
+    // Add to current questions array
+    currentQuestions.push(newQuestion);
+
+    // Re-render questions with updated array
+    renderQuestions(formType, currentQuestions);
+
+    console.log('Added new question to', formType);
+}
+
+function removeQuestion(formType, index) {
+    if (!formType) {
+        console.error('Form type is required');
+        return;
+    }
+
+    const questionsContainer = document.getElementById(`${formType}-questions`);
+    if (!questionsContainer) {
+        console.error('Questions container not found for:', formType);
+        return;
+    }
+
+    // Get current questions from the rendered form
+    const currentQuestions = getCurrentQuestions(formType);
+
+    if (index >= 0 && index < currentQuestions.length) {
+        // Remove the question at the specified index
+        currentQuestions.splice(index, 1);
+
+        // Re-render questions with updated array
+        renderQuestions(formType, currentQuestions);
+    } else {
+        console.error('Invalid index for removing question:', index);
+    }
+}
+
+function updateQuestionField(formType, index, field, value) {
+    if (!formType) {
+        console.error('Form type is required');
+        return;
+    }
+
+    const questionsContainer = document.getElementById(`${formType}-questions`);
+    if (!questionsContainer) {
+        console.error('Questions container not found for:', formType);
+        return;
+    }
+
+    // Get current questions from the rendered form
+    const currentQuestions = getCurrentQuestions(formType);
+
+    if (currentQuestions && currentQuestions[index]) {
+        // Update the field for the question at the specified index
+        currentQuestions[index][field] = value;
+
+        // Re-render questions with updated array
+        renderQuestions(formType, currentQuestions);
+    } else {
+        console.error('Invalid index or questions array for updating question field:', index);
+    }
+}
+
+function getCurrentQuestions(formType) {
+    // Attempt to get questions from the DOM
+    try {
+        const questionsContainer = document.getElementById(`${formType}-questions`);
+        if (!questionsContainer) {
+            console.warn('Questions container not found:', `${formType}-questions`);
+            return []; // Return an empty array
+        }
+
+        // Collect question items from the DOM
+        const questionItems = questionsContainer.querySelectorAll('.question-item');
+        const questions = [];
+
+        questionItems.forEach(item => {
+            const questionId = item.getAttribute('data-question-id');
+            let question = null;
+
+            // Find existing question (if available)
+            if (questionId) {
+                question = questions.find(q => q.id === questionId);
+            }
+
+            if (!question) {
+                question = { id: questionId };
+                questions.push(question);
+            }
+        });
+
+        // Map values from the DOM back to the question objects
+        return questions;
+
+    } catch (error) {
+        console.error('Error getting current questions:', error);
+        return [];
+    }
+}
+
 function saveConfiguration() {
     const config = {
         guias: extractFormConfig('guias'),
@@ -854,13 +975,7 @@ function saveConfiguration() {
         },
         body: JSON.stringify(config)
     })
-    .then(response => {
-        if (!response.ok) {
-            console.error('Save config response status:', response.status);
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-    })
+    .then(response => response.json())
     .then(data => {
         console.log('Save response:', data);
         if (data.error) {
@@ -914,74 +1029,6 @@ function extractFormConfig(formType) {
     return config;
 }
 
-function getCurrentQuestions(formType) {
-    const questionsContainer = document.getElementById(`${formType}-questions`);
-    if (!questionsContainer) {
-        console.error('Questions container not found for:', formType);
-        return [];
-    }
-
-    const questionItems = questionsContainer.querySelectorAll('.question-item');
-    const questions = [];
-
-    questionItems.forEach(item => {
-        const questionId = item.getAttribute('data-question-id');
-        const questionData = {
-            id: questionId,
-            type: null,
-            text: '',
-            required: false,
-            destination_column: '',
-            dropdown_options: '',
-            source_column: '',
-            text_destination_column: '',
-            rating_destination_column: '',
-            conditional: null
-        };
-
-        if (item.classList.contains('divider-question')) {
-            questionData.type = 'divider';
-            questionData.title = item.querySelector('input[type="text"]').value;
-        } else {
-            const typeSelect = item.querySelector('select[onchange*="type"]');
-            const requiredSelect = item.querySelector('select[onchange*="required"]');
-            const textInput = item.querySelector('textarea[onchange*="text"]');
-            const destinationInput = item.querySelector('input[onchange*="destination_column"]');
-            const dropdownOptionsInput = item.querySelector('input[onchange*="dropdown_options"]');
-            const sourceColumnInput = item.querySelector('input[onchange*="source_column"]');
-            const textDestinationColumnInput = item.querySelector('input[onchange*="text_destination_column"]');
-            const ratingDestinationColumnInput = item.querySelector('input[onchange*="rating_destination_column"]');
-            const dependsOnSelect = item.querySelector('select[class*="conditional-depends-on"]');
-            const showIfSelect = item.querySelector('select[class*="conditional-show-if"]');
-
-            questionData.type = typeSelect ? typeSelect.value : null;
-            questionData.required = requiredSelect ? requiredSelect.value === 'true' : false;
-            questionData.text = textInput ? textInput.value : '';
-            questionData.destination_column = destinationInput ? destinationInput.value : '';
-            questionData.dropdown_options = dropdownOptionsInput ? dropdownOptionsInput.value : '';
-            questionData.source_column = sourceColumnInput ? sourceColumnInput.value : '';
-            questionData.text_destination_column = textDestinationColumnInput ? textDestinationColumnInput.value : '';
-            questionData.rating_destination_column = ratingDestinationColumnInput ? ratingDestinationColumnInput.value : '';
-
-            if (dependsOnSelect && showIfSelect) {
-                const dependsOnValue = dependsOnSelect.value;
-                const showIfValue = showIfSelect.value;
-
-                if (dependsOnValue) {
-                    questionData.conditional = {
-                        depends_on: dependsOnValue,
-                        show_if: showIfValue
-                    };
-                }
-            }
-        }
-
-        questions.push(questionData);
-    });
-
-    return questions;
-}
-
 function loadForms() {
     // Load and display created forms
     const formsLoading = document.getElementById('formsLoading');
@@ -995,13 +1042,7 @@ function loadForms() {
     if (formsList) formsList.style.display = 'none';
 
     fetch('/api/forms')
-        .then(response => {
-            if (!response.ok) {
-                console.error('Load forms response status:', response.status);
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(forms => {
             // Hide loading
             if (formsLoading) formsLoading.style.display = 'none';
@@ -1068,13 +1109,7 @@ function deleteForm(formId) {
         fetch(`/api/forms/${formId}`, {
             method: 'DELETE'
         })
-        .then(response => {
-            if (!response.ok) {
-                console.error('Delete form response status:', response.status);
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
             if (data.error) {
                 alert('Erro ao excluir formulário: ' + data.error);

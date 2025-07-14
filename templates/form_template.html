@@ -141,7 +141,7 @@
                 {% set question = item %}
                 {% if question.type == 'monday_column' and question.get('hidden') %}
                     <!-- Hidden monday column field -->
-                    <input type="hidden" name="{{ question.id }}" value="{{ question.get('column_value', '') }}">
+                    <input type="hidden" name="{{ question.id }}" value="{{ question.get('column_value', '') }}" data-destination-column="{{ question.get('destination_column', '') }}">
                 {% elif question.type == 'monday_column' %}
                     {% if question.column_value and question.column_value != 'Dados não encontrados' and question.column_value != 'Erro ao carregar dados' and question.column_value != 'Dados não disponíveis' and question.column_value != 'Configuração incompleta' and question.column_value.strip() != '' %}
                     <div class="question-section" {% if question.conditional %} data-depends-on="{{ question.conditional.depends_on }}" data-show-if="{{ question.conditional.show_if or 'Sim' }}" style="display: none;" {% endif %}>
